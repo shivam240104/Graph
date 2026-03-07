@@ -7,7 +7,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-class bfs{
+public class bfs{
     public  static List<List<Integer>> buildGraph(int [][] edges , int n){
         List<List<Integer>> graph = new ArrayList<>();
         for(int i=0;i<n;i++){
